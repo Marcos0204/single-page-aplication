@@ -1,0 +1,30 @@
+.layout {
+    width: 1200px;
+    margin: 250px auto;
+}
+
+.layout-left{
+    display: flex;
+    justify-content: space-around;
+}
+
+.layout-left div {
+    flex-basis: 48%;
+}
+
+.layout-rigth {
+    display: flex;
+    justify-content: space-around;
+}
+
+.layout-rigth div {
+    flex-basis: 48%;
+}
+
+.text h3 {
+    font-size: 3rem;
+}
+.text p {
+    font-size: 1.5rem;
+    line-height: 32px;
+}
